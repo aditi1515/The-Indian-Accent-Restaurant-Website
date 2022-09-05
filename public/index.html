@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Accent Restaurant</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="uppermainblock"
+        class="h-[70vh] w-full bg-gray-300 bg-[url('Images/rajat-sarki-nnNCCQfSNsc-unsplash.jpg')] bg-cover  bg-center grid grid-rows-5"
+      >
+        <nav>
+          <div class="grid grid-cols-6  mt-5" id="fullNavBar">
+            <div
+              class="row-span-1 col-start-1 col-end-3 flex items-center justify-center w-2/7"
+              id="menubar"
+            >
+              <a class="text-white lg:text-[2rem] md:text-[1.5rem]  sm:text-[1rem]  hover:text-orange-600" href="#"
+                >Reservations</a
+              >
+              <div
+                class="lg:h-15 mt-0.5 w-[0.1rem]  md:h-10 h-6 bg-white opacity-80 ml-1 mr-1"
+              ></div>
+              <a class="text-white lg:text-[2rem] 
+              md:text-[1.5rem]  hover:text-orange-600" href="#"
+                >Menu
+              </a>
+            </div>
+            <div
+              class="optionsbar translate-y-[-10rem] duration-700 col-start-3 md:col-end-6 col-end-7 h-full w-4/7 bg-white bg-opacity-25"
+            >
+              <ul class="flex justify-evenly items-center lg:text-[1.4rem] md:text-[1rem] text-[0.7rem] text-white h-full">
+                <li class="hover:underline decoration-orange-600">
+                  <a href="#">Sign-In</a>
+                </li>
+                <li class="hover:underline decoration-orange-600">
+                  <a href="#">Private Dining</a>
+                </li>
+                <li class="hover:underline decoration-orange-600">
+                  <a href="#">Catering</a>
+                </li>
+                <li class="hover:underline decoration-orange-600">
+                  <a href="#">Cookbook</a>
+                </li>
+                <li class="hover:underline decoration-orange-600">
+                  <a href="#">Reach Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-start-7  col-end-7  mr-10">
+              <ion-icon
+                onclick="{displayOptions(this)}"
+                name="reorder-four-outline"
+                class="text-[2rem] text-white hover:text-orange-600"
+              ></ion-icon>
+            </div>
+          </div>
+        </nav>
+        <div class="logo row-span-3 bg- flex justify-center items-center">
+          <img
+            class="md:h-[10rem] md:w-[30rem] h-[7rem] w-[20rem]  bg-white bg-opacity-80 ml-3 p-2"
+            src="Images/m_logo.png"
+          />
+        </div>
+      </div>
+      <div id="secondblock" class="flex justify-center mt-2 ">
+        <div
+          id="introContent"
+          class="h-full lg:w-[30vw] w-[40vw] flex flex-col  p-4"
+        >
+          <div class="font-medium mb-1 lg:text-[1.8rem] md:text-[1.5rem] text-orange-600">
+            INTRODUCTION
+          </div>
+          <p class="lg:text-[1rem] md:text-[0.8rem] text-[14px]  text-justify">
+            Indian Accent showcases inventive Indian cuisine by complementing
+            the flavours and traditions of India with global ingredients and
+            techniques.
+          </p>
+
+          <p class="lg:text-[1rem] md:text-[0.8rem] text-[14px]  mt-1 text-justify">
+            Indian Accent, New Delhi is ranked as the #22 Restaurant in Asia by
+            Asia’s 50 Best Restaurants. It has been awarded the San Pellegrino
+            ‘Best Restaurant in India’ by Asia’s 50 Best Restaurants for seven
+            consecutive years (from 2015-2021).The restaurant has also been
+            rated as the ‘No.1 Restaurant in India’ by TripAdvisor. Recognized
+            by Time Magazine ‘Amongst the World’s 100 Greatest Places’ and
+            awarded the Number 1 Restaurant in India by Condé Nast Traveller.
+          </p>
+        </div>
+        <div
+          id="imageContent"
+          class="h-[50vh]   md:w-[20vw] w-[40vw] flex justify-start items-start bg-slate-600 bg-[url('Images/sahand-hoseini-R2H4asDtjvY-unsplash.jpg')] bg-center bg-cover"
+        >
+
+      </div>
+      </div>
+      <div id="menuSection"
+        class=" bg-gray-200 mt-4 grid md:grid-cols-3 p-5 "
+      >
+        <div
+          id="menuContent"
+          class=" flex flex-col col-span-1  m-2 p-10"
+        >
+          <div class="mb-1 text-[2.5rem] text-orange-600 font-medium">MENU</div>
+          <p class="lg:text-[1.3rem] md:text-[0.9rem] text-justify">
+            Chef Vikas Khanna has designed Indian Accent’s path-breaking
+            contemporary Indian menu combining fresh seasonal produce and
+            unusual ingredients from across the world to excite the adventurous,
+            yet satisfy traditional tastes and evoke nostalgia.
+          </p>
+
+          <p class="lg:text-[1.3rem] md:text-[0.9rem]  mt-1 text-justify">
+            The six course Chef's Tasting menu where each course is paired with
+            a selection of wines from India and across the world, offers the
+            complete dining experience of the restaurant
+          </p>
+          <a
+            class="text-[1rem] mt-1 text-justify underline font-medium text-orange-600"
+            href="#"
+          >
+            VIEW MORE</a
+          >
+        </div>
+        <div class="menuImage col-span-2 flex justify-center items-center">
+          <div
+            class="cardcontainer md:h-[80%] h-[50vh] w-[70%] bg-slate-600 grid grid-rows-2 grid-cols-2"
+          >
+            <div
+              class="h-full w-full bg-[url('Images/sam-moghadam-khamseh-ZxRHv6epgMQ-unsplash.jpg')] group bg-cover bg-blend-color-burn flex bg-center justify-center items-center hover:bg-[#000000a8]"
+            >
+              <div
+                class="h-[90%] w-[90%] invisible flex justify-center items-center border-[0.5px] group-hover:visible"
+              >
+                <p class="text-[1.3rem] text-white cursor-pointer">Starters>></p>
+              </div>
+            </div>
+            <div
+              class="h-full w-full bg-[url('Images/maincourseee.jpg')] bg-cover bg-blend-color-burn group bg-center  flex justify-center items-center hover:bg-[#000000a8]"
+            >
+              <div
+                class="h-[90%] w-[90%] invisible flex justify-center items-center border-[0.5px] group-hover: group-hover:visible"
+              >
+                <p class="text-[1.3rem] text-white cursor-pointer">Maincourse>></p>
+              </div>
+            </div>
+            <div
+              class="h-full w-full bg-[url('Images/beverages.jpg')] bg-contain bg-blend-color-burn group bg-center  flex justify-center items-center hover:bg-[#000000a8]"
+            >
+              <div
+                class="h-[90%] w-[90%] invisible flex justify-center items-center border-[0.5px] group-hover:visible"
+              >
+                <p class="text-[1.3rem] text-white cursor-pointer">Beverages>></p>
+              </div>
+            </div>
+            <div
+              class="h-full w-full bg-[url('Images/dessertsss.jpg')] bg-cover bg-blend-color-burn group flex bg-center  justify-center items-center hover:bg-[#000000a8]"
+            >
+              <div
+                class="h-[90%] w-[90%] invisible flex justify-center items-center border-[0.5px] group-hover:visible"
+              >
+                <p class="text-[1.3rem] text-white cursor-pointer">Desserts>></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="galleryContainer" class="w-screen h-[70vh] grid grid-rows-4">
+        <div class="flex justify-center items-center">
+          <h2 class="row-span-1 text-3xl font-semibold text-orange-600">
+            GALLERY
+          </h2>
+        </div>
+        <div
+          id="gallerySliderContainer"
+          class="w-screen h-full row-span-3 flex justify-center items-center"
+        >
+          <ion-icon
+            name="caret-back-outline"
+            id="prevBtn"
+            class="text-5xl cursor-pointer z-10"
+          ></ion-icon>
+          <div
+            id="gallerySlider"
+            class="w-[50vw] md:w-[40vw] lg:w-[30vw] lg:h-[50vh] h-[30vh] flex overflow-hidden"
+          >
+            <div id="imagesContainer" class="flex -z-10">
+              <img
+                id="lastclone"
+                src="./images/slider4.jpg"
+                class="h-full w-full"
+                alt=""
+              />
+              <img src="./images/slider1.jpg" class="h-full w-full" alt="" />
+              <img src="./images/slider2.jpg" class="h-full w-full" alt="" />
+              <img src="./images/slider3.jpg" class="h-full w-full" alt="" />
+              <img src="./images/slider4.jpg" class="h-full w-full" alt="" />
+              <img
+                id="firstclone"
+                src="./images/slider1.jpg"
+                class="h-full w-full"
+                alt=""
+              />
+            </div>
+          </div>
+          <ion-icon
+            name="caret-forward-outline"
+            id="nextBtn"
+            class="text-5xl cursor-pointer"
+          ></ion-icon>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
